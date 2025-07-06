@@ -6,7 +6,7 @@
 - [<b>Skills Demonstrated</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/README.md#skills-demonstrated)
 - [<b>Key Analyses Performed</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/README.md#key-analyses-performed)
 - [<b>Dataset</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/README.md#dataset)
-- [<b>How to Use This Repository</b>]()
+- [<b>How to Use This Repository</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/README.md#how-to-use-this-repository)
 
 
 <h2>Project Overview</h2>
