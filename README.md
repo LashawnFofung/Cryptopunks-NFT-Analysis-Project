@@ -1,9 +1,11 @@
 # Cryptopunks-NFT-Analysis-Project
 
 Table of Contents
-- Project Overview
-- Skills Demonstrated
-- Key Analyses Performed
+- [<b>Project Overview</b>]()
+- [<b>Skills Demonstrated</b>]()
+- [<b>Key Analyses Performed</b>]()
+- [<b>Dataset</b>]()
+- [<b>How to Use This Repository</b>]()
 
 
 <h2>Project Overview</h2>
@@ -42,7 +44,36 @@ This project addresses a series of analytical questions, including:
 - Counting transactions for a specific wallet.
 - Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price.
 
+<h1></h1>
 
+<h2>Dataset</h2>
+
+The dataset used for this analysis comprises real-world CryptoPunks sales data from January 1st, 2018, to December 31st, 2021. The table includes the following columns:
+
+| Column Name      | Description                                     |
+| :--------------- | :---------------------------------------------- |
+| `buyer_address`  | The blockchain address of the NFT buyer.        |
+| `ETH_price`      | The price of the NFT sale in Ethereum (ETH).    |
+| `USD_price`      | The price of the NFT sale in US Dollars (USD).  |
+| `seller_address` | The blockchain address of the NFT seller.       |
+| `date`           | The date of the NFT sale.                       |
+| `time`           | The time of the NFT sale.                       |
+| `NFT_ID`         | The unique identifier for the CryptoPunk NFT.   |
+| `transaction_hash` | The unique hash of the blockchain transaction.  |
+| `NFT_name`       | The name or specific identifier of the NFT (e.g., "CryptoPunk #1234"). |
+
+<h1></h1>
+  
+<h2>How to Use This Repository</h2>
+
+This repository contains SQL scripts that can be executed against a database containing the CryptoPunks sales data. Each script corresponds to a specific analytical question or task outlined above.
+- 1.	<b>Clone the repository:</b>
+      Bash
+    	git clone https://github.com/your-username/CryptoPunks-NFT-Sales-Analysis.git
+- 2.	<b>Set up your database:</b> Ensure you have a SQL database (e.g., PostgreSQL, MySQL, SQL Server) configured and the CryptoPunks sales data loaded into a table with the specified schema.
+- 3.	<b>Execute SQL scripts:</b> Run the SQL files provided in the repository against your database to replicate the analyses.
+
+Feel free to explore the SQL queries and adapt them for further analysis or different datasets.
 
 
 
