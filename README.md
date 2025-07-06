@@ -1,6 +1,6 @@
 # Cryptopunks-NFT-Analysis-Project
 
-Table of Contents
+<h2>Table of Contents</h2>
 - [<b>Project Overview</b>]()
 - [<b>Skills Demonstrated</b>]()
 - [<b>Key Analyses Performed</b>]()
