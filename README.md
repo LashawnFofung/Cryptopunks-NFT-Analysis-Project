@@ -1,7 +1,8 @@
 # Cryptopunks-NFT-Analysis-Project
 
 <h2>Table of Contents</h2>
-- [<b>Project Overview</b>]()
+
+- [<b>Project Overview</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/README.md#project-overview)
 - [<b>Skills Demonstrated</b>]()
 - [<b>Key Analyses Performed</b>]()
 - [<b>Dataset</b>]()
