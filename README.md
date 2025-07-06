@@ -69,11 +69,11 @@ The dataset used for this analysis comprises real-world CryptoPunks sales data f
 <h2>How to Use This Repository</h2>
 
 This repository contains SQL scripts that can be executed against a database containing the CryptoPunks sales data. Each script corresponds to a specific analytical question or task outlined above.
-- 1.	<b>Clone the repository:</b>
+- <b>1. Clone the repository:</b>
   ```bash
   git clone https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project.git
   ```
-- 2.	<b>Set up your database:</b> Ensure you have a SQL database (e.g., PostgreSQL, MySQL, SQL Server) configured and the CryptoPunks sales data loaded into a table with the specified schema.
-- 3.	<b>Execute SQL scripts:</b> Run the SQL files provided in the repository against your database to replicate the analyses.
+- <b>2. Set up your database:</b> Ensure you have a SQL database (e.g., PostgreSQL, MySQL, SQL Server) configured and the CryptoPunks sales data loaded into a table with the specified schema.
+- <b>3. Execute SQL scripts:</b> Run the SQL files provided in the repository against your database to replicate the analyses.
 
 Feel free to explore the SQL queries and adapt them for further analysis or different datasets.
