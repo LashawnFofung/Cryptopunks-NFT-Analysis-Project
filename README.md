@@ -3,7 +3,7 @@
 <h2>Table of Contents</h2>
 
 - [<b>Project Overview</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/README.md#project-overview)
-- [<b>Skills Demonstrated</b>]()
+- [<b>Skills Demonstrated</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/README.md#skills-demonstrated)
 - [<b>Key Analyses Performed</b>]()
 - [<b>Dataset</b>]()
 - [<b>How to Use This Repository</b>]()
