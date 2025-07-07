@@ -31,7 +31,8 @@
 
 <b>SQL</b>
 
-``` /*Total number of sales within the specified period.*/
+```
+/*Total number of sales within the specified period.*/
 SELECT COUNT(*) AS total_sales
 FROM cryptopunkdata;
 ```
