@@ -12,7 +12,7 @@
 
 <h2>Project Overview</h2>
 
-NFTs, as unique digital assets on the blockchain, have rapidly emerged as a prominent technology, with billions of dollars transacted annually. While the long-term future and regulatory landscape of NFTs remain uncertain, the inherent transparency of blockchain technology means all transactions are publicly recorded, providing a rich dataset for analysis.
+A NFT (Non-Fungible Token) is a type of digital asset that represents ownership of a unique item or a piece of content on a blockchain. NFTs, as unique digital assets on the blockchain, have rapidly emerged as a prominent technology, with billions of dollars transacted annually. While the long-term future and regulatory landscape of NFTs remain uncertain, the inherent transparency of blockchain technology means all transactions are publicly recorded, providing a rich dataset for analysis.
 
 This project delves into the sales history of CryptoPunks, where each record represents a distinct NFT sale, capturing details such as buyer and seller addresses, transaction prices in ETH and USD, sale dates and times, NFT IDs, transaction hashes, and NFT names.
 
