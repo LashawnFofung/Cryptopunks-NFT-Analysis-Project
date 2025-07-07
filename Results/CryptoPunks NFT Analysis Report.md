@@ -305,7 +305,7 @@ SELECT * FROM 1919_purchases;
 
 <b>RESULTS</b>
 
-View query results: [<b>HERE</b>]()
+View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Creation%20of%20View.png)
 
 
 <br>
