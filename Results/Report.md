@@ -4,7 +4,7 @@
 ## TABLE OF CONTENTS
 <b>SKILLS:</b> `Data Analysis`, `Data Exploration`, `SQL`, `Aggregation`, `Summary Function`:
 
-- [Total number of sales within the specified period](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#total-number-of-sales-within-the-specified-period)
+- [Total number of sales within the dataset (January 2018 to December 2021)](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#total-number-of-sales-within-the-specified-period)
 - [Identification of the top 5 most expensive transactions by USD price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#identification-of-the-top-5-most-expensive-transactions-by-usd-price)
 - [Calculation of a moving average of USD prices to observe price trends.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#calculation-of-a-moving-average-of-usd-prices-to-observe-price-trends)
 - [Determination of average sale prices for each NFT name.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#determination-of-average-sale-prices-for-each-nft-name)
@@ -23,7 +23,7 @@
 
 <h1></h1>
   
-<h3>Total number of sales within the specified period.</h3>
+<h3>Total number of sales within dataset (January 2018 to December 2021).</h3>
 
  This query
 
