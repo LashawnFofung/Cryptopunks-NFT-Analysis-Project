@@ -51,8 +51,9 @@ FROM cryptopunkdata;
 ```
 <br>
 
-<img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Total%20Sales.png" widht="350" height="4" alt="Total Sales">
+<b>RESULTS</b>
 
+View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Total%20Sales.png)
 
 <b>INSIGHT</b> 
  
