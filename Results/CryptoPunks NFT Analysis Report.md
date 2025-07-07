@@ -193,7 +193,7 @@ This query aggregates the number of sales and the average ETH price per transact
 <b>QUERY</b> 
 
 ```
-/*Analysis of sales volume and average ETH price by day of the week.
+/*Analysis of sales volume, average ETH price, and USD Price by day of the week.
  * Order by the count of transactions in ascending order.
  */
 
@@ -209,8 +209,8 @@ SELECT
 		ELSE 'Unknown'
 	END AS day_of_week,
 	COUNT(*) AS number_of_sales,
-	CONCAT('$', ROUND(AVG(eth_price),2)) AS average_eth_price, -- Added '$' in front of value
-	CONCAT('$', ROUND(AVG(usd_price),2)) AS average_usd_price -- Added '$' in front of value
+	ROUND(AVG(eth_price),10) AS average_eth_price, -- Removed decimals if more than 10 places.
+	CONCAT('$', FORMAT(AVG(usd_price),2)) AS average_usd_price -- Added '$' in front of value. Removed decimals if more than 2 places.
 FROM 
 	cryptopunkdata
 GROUP BY 
