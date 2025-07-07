@@ -85,7 +85,7 @@ LIMIT 5;
 
 <br>
 
-<img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Top%205%20Most%20Expensive%20Cryptopunk%20NFT%20Transaction.png" widht="450" height="4" alt="Top 5 Most Expensive Cryptopunk NFT Transaction ">
+<img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Top%205%20Most%20Expensive%20Cryptopunk%20NFT%20Transaction.png" widht="450" height="4" alt="Top 5 Most Expensive Cryptopunk NFT Transaction">
 
 <br>
 
