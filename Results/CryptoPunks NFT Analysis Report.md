@@ -55,6 +55,8 @@ FROM cryptopunkdata;
 
 View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Total%20Sales.png)
 
+<br>
+
 <b>INSIGHT</b> 
  
 This is a fundamental first step in data exploration, providing a quick overview of the dataset's volume. A high count suggests a bustling market, while a low count might indicate niche activity. It helps in understanding the scale of the data.
@@ -87,7 +89,9 @@ LIMIT 5;
 
 <br>
 
-<img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Top%205%20Most%20Expensive%20Cryptopunk%20NFT%20Transaction.png" widht="450" height="4" alt="Top 5 Most Expensive Cryptopunk NFT Transaction">
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Top%205%20Most%20Expensive%20Cryptopunk%20NFT%20Transaction.png)
 
 <br>
 
