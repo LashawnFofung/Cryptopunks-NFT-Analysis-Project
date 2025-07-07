@@ -27,10 +27,11 @@
 
  This query counts all rows in the `cryptopunkdata` table, providing the total number of NFT sales recordered from January 1, 2018 to December 31, 2021 in the dataset.
 
- <b>Insight:</b> This is a fundamental first step in data exploration, providing a quick overview of the dataset's volume. A high count suggests a bustling market, while a low count might indicate niche activity. It helps in understanding the scale of the data.
+ <b>INSIGHT:</b> This is a fundamental first step in data exploration, providing a quick overview of the dataset's volume. A high count suggests a bustling market, while a low count might indicate niche activity. It helps in understanding the scale of the data.
 
 <br>
 
+<b>QUERY</b>
 ``` /*Total number of sales within the specified period.*/
 SELECT COUNT(*) AS total_sales
 FROM cryptopunkdata;
