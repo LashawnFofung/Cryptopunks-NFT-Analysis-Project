@@ -34,7 +34,7 @@ SELECT COUNT(*) AS total_sales
 FROM cryptopunkdata;
 ```
 
-<img src="" widht="450" height="4" alt="">
+<img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Total%20Sales.png" widht="450" height="4" alt="Total Sales">
 
 
 <h1></h1>
