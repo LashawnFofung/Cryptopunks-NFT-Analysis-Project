@@ -186,23 +186,50 @@ This analysis helps in understanding the inherent value or market perception of 
 
 <h1></h1>
 
-This query
+This query aggregates the number of sales and the average ETH price per transaction for each day of the week, ordering the results by the count of sales from lowest to highest.
  
 <br>
 
 <b>QUERY</b> 
 
 ```
+/*Analysis of sales volume and average ETH price by day of the week.
+ * Order by the count of transactions in ascending order.
+ */
 
+SELECT 
+	CASE 
+		WHEN DAYOFWEEK(day) = 1 THEN 'Sunday'
+		WHEN DAYOFWEEK(day) = 2 THEN 'Monday'
+		WHEN DAYOFWEEK(day) = 3 THEN 'Tuesday'
+		WHEN DAYOFWEEK(day) = 4 THEN 'Wednesday'
+		WHEN DAYOFWEEK(day) = 5 THEN 'Thursday'
+		WHEN DAYOFWEEK(day) = 6 THEN 'Friday'
+		WHEN DAYOFWEEK(day) = 7 THEN 'Saturday'
+		ELSE 'Unknown'
+	END AS day_of_week,
+	COUNT(*) AS number_of_sales,
+	CONCAT('$', ROUND(AVG(eth_price),2)) AS average_eth_price, -- Added '$' in front of value
+	CONCAT('$', ROUND(AVG(usd_price),2)) AS average_usd_price -- Added '$' in front of value
+FROM 
+	cryptopunkdata
+GROUP BY 
+	day_of_week 
+ORDER BY 
+	number_of_sales ASC;
 ```
 
 <br>
 
-<img src="" widht="450" height="4" alt="">
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Sales%20Volume%20%26%20Average%20ETH%20Price%20%26%20USD%20Price.png)
 
 <br>
 
 <b>INSIGHT</b> 
+
+This helps identify temporal patterns in NFT trading activity. Are certain days of the week more active for sales, or do prices fluctuate based on the day? This could uncover insights into typical buyer behavior or market liquidity patterns throughout the week.
 
 <h1></h1>
   
