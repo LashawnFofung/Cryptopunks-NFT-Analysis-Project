@@ -276,23 +276,43 @@ While not directly quantitative, this query aids in qualitative data exploration
 
 <h1></h1>
 
-This query
+This statement creates a SQL view named `1919_purchases` that encapsulates all transaction data where the specified wallet address (`0x1919db36ca2fa2e15f9000fd9cdc2edcf863e685`) acted as the buyer.
  
 <br>
 
 <b>QUERY</b> 
 
 ```
-
+/*Creation of a view called "1919_purchases" and contains any sales where
+ * "0x1919db36ca2fa2e15f9000fd9cdc2edcf863e685" was the buyer. */
+CREATE VIEW 1919_purchases AS
+SELECT * FROM cryptopunkdata
+WHERE 
+	buyer_address = '0x1919db36ca2fa2e15f9000fd9cdc2edcf863e685';
 ```
 
 <br>
 
-<img src="" widht="450" height="4" alt="">
+<b>To see new View called "1919_purchases:</b>
+
+<br>
+
+```
+/*To show 1919_purchases view in the current database.*/
+SELECT * FROM 1919_purchases;
+```
+<br>
+
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>]()
+
 
 <br>
 
 <b>INSIGHT</b> 
+
+Views are crucial for focusing exploration on specific subsets of data without modifying the original table. This view allows for easy and repeatable analysis of a particular high-activity buyer's purchasing patterns, which can reveal their investment strategy, preferred NFTs, or overall market impact.
 
 <h1></h1>
   
