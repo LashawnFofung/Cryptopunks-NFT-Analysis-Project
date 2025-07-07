@@ -322,7 +322,7 @@ This query combines two result sets: one showing the highest USD price for each 
 
 <b>
 
-<b>QUERY</b> 
+<b>QUERY</b>
 
 ```
 /*Comparative analysis of highest and lowest sale prices for each NFT.
