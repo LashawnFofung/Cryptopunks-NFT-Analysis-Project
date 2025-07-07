@@ -39,7 +39,6 @@ This project addresses a series of analytical questions, including:
 - Analysis of sales volume and average ETH price by day of the week.
 - Construction of a descriptive summary for each transaction.
 - Creation of a dedicated view for purchases made by a specific wallet address.
-- Visualization preparation for ETH price ranges (histogram).
 - Comparative analysis of highest and lowest sale prices for each NFT.
 - Identification of the most sold NFT each month/year and its associated price.
 - Calculation of total monthly sales volume.
