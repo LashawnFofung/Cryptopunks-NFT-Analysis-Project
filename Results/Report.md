@@ -51,6 +51,14 @@ This is a fundamental first step in data exploration, providing a quick overview
  
 <br>
 
+<b>QUERY</b> 
+
+```
+
+```
+
+<br>
+
 <img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Top%205%20Most%20Expensive%20Cryptopunk%20NFT%20Transaction.png" widht="450" height="4" alt="">
 
 <br>
@@ -63,6 +71,14 @@ This is a fundamental first step in data exploration, providing a quick overview
 
  This query
  
+<br>
+
+<b>QUERY</b> 
+
+```
+
+```
+
 <br>
 
 <img src="" widht="450" height="4" alt="">
@@ -79,6 +95,14 @@ This is a fundamental first step in data exploration, providing a quick overview
  
 <br>
 
+<b>QUERY</b> 
+
+```
+
+```
+
+<br>
+
 <img src="" widht="450" height="4" alt="">
 
 <br>
@@ -91,6 +115,14 @@ This is a fundamental first step in data exploration, providing a quick overview
 
  This query
  
+<br>
+
+<b>QUERY</b> 
+
+```
+
+```
+
 <br>
 
 <img src="" widht="450" height="4" alt="">
@@ -107,6 +139,14 @@ This is a fundamental first step in data exploration, providing a quick overview
  
 <br>
 
+<b>QUERY</b> 
+
+```
+
+```
+
+<br>
+
 <img src="" widht="450" height="4" alt="">
 
 <br>
@@ -119,6 +159,14 @@ This is a fundamental first step in data exploration, providing a quick overview
 
  This query
  
+<br>
+
+<b>QUERY</b> 
+
+```
+
+```
+
 <br>
 
 <img src="" widht="450" height="4" alt="">
@@ -135,6 +183,14 @@ This is a fundamental first step in data exploration, providing a quick overview
  
 <br>
 
+<b>QUERY</b> 
+
+```
+
+```
+
+<br>
+
 <img src="" widht="450" height="4" alt="">
 
 <br>
@@ -144,6 +200,14 @@ This is a fundamental first step in data exploration, providing a quick overview
 <h1></h1>
   
 <h3>Comparative analysis of highest and lowest sale prices for each NFT.</h3>
+
+<br>
+
+<b>QUERY</b> 
+
+```
+
+```
 
 <br>
 
@@ -161,6 +225,14 @@ This is a fundamental first step in data exploration, providing a quick overview
  
 <br>
 
+<b>QUERY</b> 
+
+```
+
+```
+
+<br>
+
 <img src="" widht="450" height="4" alt="">
 
 <br>
@@ -173,6 +245,14 @@ This is a fundamental first step in data exploration, providing a quick overview
 
  This query
  
+<br>
+
+<b>QUERY</b> 
+
+```
+
+```
+
 <br>
 
 <img src="" widht="450" height="4" alt="">
@@ -189,6 +269,14 @@ This is a fundamental first step in data exploration, providing a quick overview
  
 <br>
 
+<b>QUERY</b> 
+
+```
+
+```
+
+<br>
+
 <img src="" widht="450" height="4" alt="">
 
 <br>
@@ -201,6 +289,14 @@ This is a fundamental first step in data exploration, providing a quick overview
 
  This query
  
+<br>
+
+<b>QUERY</b> 
+
+```
+
+```
+
 <br>
 
 <img src="" widht="450" height="4" alt="">
