@@ -29,7 +29,7 @@
 
 <br>
 
-<b>QUERY</b>
+<b>SQL</b>
 ``` /*Total number of sales within the specified period.*/
 SELECT COUNT(*) AS total_sales
 FROM cryptopunkdata;
@@ -47,14 +47,23 @@ This is a fundamental first step in data exploration, providing a quick overview
 <h3>Identification of the top 5 most expensive transactions by USD price.</h3>
 
 <br>
- This query
+ This query retrieves the `name`, `eth_price`, `usd_price`,and `day` for the five highest-priced NFT transactions based on their USD value.
  
 <br>
 
-<b>QUERY</b> 
+<b>SQL</b> 
 
 ```
-
+SELECT
+	name, 
+	eth_price,
+	usd_price,
+	day
+FROM 
+	cryptopunkdata 
+ORDER BY 
+	usd_price 
+LIMIT 5;
 ```
 
 <br>
@@ -64,6 +73,8 @@ This is a fundamental first step in data exploration, providing a quick overview
 <br>
 
 <b>INSIGHT</b> 
+
+Identifying top transactions immediately highlights outliers or significant events in the market. It can reveal specific NFTs that command extremely high values, potentiallu indicating rarity, historical significance, or intense speculation, which are crucial for understanding marlet dynamics and value drivers.
 
 <h1></h1>
   
