@@ -58,21 +58,22 @@ This is a fundamental first step in data exploration, providing a quick overview
 <b>SQL</b> 
 
 ```
+/*Identification of the top 5 most expensive transactions by USP price*/
 SELECT
 	name, 
 	eth_price,
-	usd_price,
+	ROUND(usd_price,0) AS usd_price_no_decimals, -- Rounds to 0 decimal places
 	day
 FROM 
 	cryptopunkdata 
 ORDER BY 
-	usd_price 
+	usd_price DESC
 LIMIT 5;
 ```
 
 <br>
 
-<img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Top%205%20Most%20Expensive%20Cryptopunk%20NFT%20Transaction.png" widht="450" height="4" alt="">
+<img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Top%205%20Most%20Expensive%20Cryptopunk%20NFT%20Transaction.png" widht="450" height="4" alt="Top 5 Most Expensive Cryptopunk NFT Transaction ">
 
 <br>
 
