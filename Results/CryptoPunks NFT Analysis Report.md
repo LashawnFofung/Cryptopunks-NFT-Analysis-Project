@@ -63,11 +63,14 @@ This is a fundamental first step in data exploration, providing a quick overview
 
 <h1></h1>
   
+
+
+
 <h3>2. Identification of the top 5 most expensive transactions by USD price</h3>
 
 <h1></h1>
 
- This query retrieves the `name`, `eth_price`, `usd_price`,and `day` for the five highest-priced NFT transactions based on their USD value.
+This query retrieves the `name`, `eth_price`, `usd_price`,and `day` for the five highest-priced NFT transactions based on their USD value.
  
 <br>
 
@@ -101,6 +104,7 @@ Identifying top transactions immediately highlights outliers or significant even
 
 <h1></h1>
   
+
 <h3>3. Calculation of a moving average of USD prices to observe price trends</h3>
 
 <h1></h1>
@@ -128,7 +132,9 @@ SELECT
 
 <br>
 
-<img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Calculating%20Moving%20Average%20USD%20Prices%20of%20Last%2050%20Transactions.png" widht="450" height="4" alt="Calculating Moving Average USD Prices of Last 50 Transactions">
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Calculating%20Moving%20Average%20USD%20Prices%20of%20Last%2050%20Transactions.png)
 
 <br>
 
@@ -138,6 +144,7 @@ Moving averages are crucial for smoothing out short-term market noise and reveal
 
 <h1></h1>
   
+
 <h3>4. Determination of average sale prices for each NFT name</h3>
 
 <h1></h1>
@@ -163,7 +170,9 @@ ORDER BY
 
 <br>
 
-<img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/AVG%20Sales%20Prices%20by%20name.png" widht="450" height="4" alt="AVG Sales Price by name">
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/AVG%20Sales%20Prices%20by%20name.png)
 
 <br>
 
