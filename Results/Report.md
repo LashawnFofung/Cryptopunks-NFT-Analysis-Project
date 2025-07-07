@@ -29,6 +29,11 @@
 
 <br>
 
+``` /*Total number of sales within the specified period.*/
+SELECT COUNT(*) AS total_sales
+FROM cryptopunkdata;
+```
+
 <img src="" widht="450" height="4" alt="">
 
 
