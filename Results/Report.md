@@ -1,8 +1,8 @@
 # RESULTS: Cryptopunk NFT Analysis Project
 
-SKILLS: Data Analysis, SQL, Aggregation, Summary Function
 
-<h2>TABLE OF CONTENTS</h2>
+## TABLE OF CONTENTS
+<b>SKILLS:</b> `Data Analysis`, `Data Exploration`, `SQL`, `Aggregation`, `Summary Function`:
 
 - Total number of sales within the specified period
 - Identification of the top 5 most expensive transactions by USD price.
@@ -21,18 +21,7 @@ SKILLS: Data Analysis, SQL, Aggregation, Summary Function
 
 <h2>QUESTIONS</h2>
 
-<h1></h1>
-  
-<h3></h3>
-
-<br>
-
-<img src="" widht="450" height="4" alt="">
-
-Total number of sales within the specified period.
-
-
-<h1></h1>
+<h1>Total number of sales within the specified period.</h1>
   
 <h3></h3>
 
@@ -41,38 +30,7 @@ Total number of sales within the specified period.
 <img src="" widht="450" height="4" alt="">
 
 
-Identification of the top 5 most expensive transactions by USD price.
-<h1></h1>
-  
-<h3></h3>
-
-<br>
-
-<img src="" widht="450" height="4" alt="">
-
-Calculation of a moving average of USD prices to observe price trends.
-
-<h1></h1>
-  
-<h3></h3>
-
-<br>
-
-<img src="" widht="450" height="4" alt="">
-
-Determination of average sale prices for each NFT name.
-
-<h1></h1>
-  
-<h3></h3>
-
-<br>
-
-<img src="" widht="450" height="4" alt="">
-
-Analysis of sales volume and average ETH price by day of the week.
-
-<h1></h1>
+<h1>Identification of the top 5 most expensive transactions by USD price.</h1>
   
 <h3></h3>
 
@@ -81,9 +39,7 @@ Analysis of sales volume and average ETH price by day of the week.
 <img src="" widht="450" height="4" alt="">
 
 
-Construction of a descriptive summary for each transaction.
-
-<h1></h1>
+<h1>Calculation of a moving average of USD prices to observe price trends.</h1>
   
 <h3></h3>
 
@@ -91,9 +47,8 @@ Construction of a descriptive summary for each transaction.
 
 <img src="" widht="450" height="4" alt="">
 
-Creation of a dedicated view for purchases made by a specific wallet address.
 
-<h1></h1>
+<h1>Determination of average sale prices for each NFT name.</h1>
   
 <h3></h3>
 
@@ -101,9 +56,9 @@ Creation of a dedicated view for purchases made by a specific wallet address.
 
 <img src="" widht="450" height="4" alt="">
 
-Visualization preparation for ETH price ranges (histogram).
 
-<h1></h1>
+
+<h1>Analysis of sales volume and average ETH price by day of the week.</h1>
   
 <h3></h3>
 
@@ -111,9 +66,8 @@ Visualization preparation for ETH price ranges (histogram).
 
 <img src="" widht="450" height="4" alt="">
 
-Comparative analysis of highest and lowest sale prices for each NFT.
 
-<h1></h1>
+<h1>Construction of a descriptive summary for each transaction.</h1>
   
 <h3></h3>
 
@@ -121,9 +75,8 @@ Comparative analysis of highest and lowest sale prices for each NFT.
 
 <img src="" widht="450" height="4" alt="">
 
-Identification of the most sold NFT each month/year and its associated price.
 
-<h1></h1>
+<h1>Creation of a dedicated view for purchases made by a specific wallet address.</h1>
   
 <h3></h3>
 
@@ -131,9 +84,8 @@ Identification of the most sold NFT each month/year and its associated price.
 
 <img src="" widht="450" height="4" alt="">
 
-Calculation of total monthly sales volume.
 
-<h1></h1>
+<h1>Visualization preparation for ETH price ranges (histogram).</h1>
   
 <h3></h3>
 
@@ -141,9 +93,8 @@ Calculation of total monthly sales volume.
 
 <img src="" widht="450" height="4" alt="">
 
-Counting transactions for a specific wallet.
 
-<h1></h1>
+<h1>Comparative analysis of highest and lowest sale prices for each NFT.</h1>
   
 <h3></h3>
 
@@ -151,7 +102,44 @@ Counting transactions for a specific wallet.
 
 <img src="" widht="450" height="4" alt="">
 
-Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price.
+
+<h1>Identification of the most sold NFT each month/year and its associated price.</h1>
+  
+<h3></h3>
+
+<br>
+
+<img src="" widht="450" height="4" alt="">
+
+
+<h1>Calculation of total monthly sales volume.</h1>
+  
+<h3></h3>
+
+<br>
+
+<img src="" widht="450" height="4" alt="">
+
+
+<h1>Counting transactions for a specific wallet.</h1>
+  
+<h3></h3>
+
+<br>
+
+<img src="" widht="450" height="4" alt="">
+
+
+<h1>Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price.</h1>
+  
+<h3></h3>
+
+<br>
+
+<img src="" widht="450" height="4" alt="">
+
+
+
 
 <h1></h1>
   
