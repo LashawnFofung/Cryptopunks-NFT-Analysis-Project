@@ -165,9 +165,9 @@ ORDER BY
 
 <b>INSIGHT</b> 
 
-<h1></h1>
-
 This analysis helps in understanding the inherent value or market perception of different individual NFTs within the CryptoPunks collection. It can highlight which specific Punks (e.g., those with rare traits) consistently sell for more, pointing to key value attributes within the collection.
+
+<h1></h1>
   
 <h3>5. Analysis of sales volume and average ETH price by day of the week</h3>
 
