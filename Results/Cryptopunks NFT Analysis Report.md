@@ -18,6 +18,7 @@
 - [Counting transactions for a specific wallet.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#counting-transactions-for-a-specific-wallet)
 - [Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#development-of-an-estimated-average-value-calculator-to-account-for-outlier-sales-and-provide-a-more-representative-daily-average-price)
 
+<h1></h1>
 
 <h2>QUESTIONS</h2>
   
