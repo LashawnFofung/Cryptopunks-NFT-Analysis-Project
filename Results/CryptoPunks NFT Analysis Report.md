@@ -318,23 +318,49 @@ Views are crucial for focusing exploration on specific subsets of data without m
 
 <h1></h1>
 
-This query
+This query combines two result sets: one showing the highest USD price for each unique NFT (labeled 'highest'), and another showing the lowest USD price for each unique NFT (labeled 'lowest'), then orders them by NFT name and status.
 
 <b>
 
 <b>QUERY</b> 
 
 ```
+/*Comparative analysis of highest and lowest sale prices for each NFT.
+ * Formatted with commas and always 2 decimal places. */
+SELECT 
+	cryptopunkdata.name AS name,
+	FORMAT(MAX(cryptopunkdata.usd_price),2) AS price,
+	'highest' AS status
+FROM 
+	cryptopunkdata 
+GROUP BY 
+	cryptopunkdata.name
+UNION ALL
 
+SELECT 	
+	name AS name,
+	FORMAT(MIN(cryptopunkdata.usd_price),2) AS price,
+	'lowest' AS status
+FROM 
+	cryptopunkdata 
+GROUP BY 
+	cryptopunkdata.name 
+ORDER BY 
+	name ASC, status ASC;
 ```
 
 <br>
 
-<img src="" widht="450" height="4" alt="">
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Comparative%20analysis%20of%20highest%20%26%20lowest%20sale%20price.png)
+
 
 <br>
 
 <b>INSIGHT</b> 
+
+This comparison highlights the price volatility and range for individual NFTs. A large difference between highest and lowest prices for the same NFT indicates significant market fluctuations or changes in perceived value over time. This is critical for understanding risk and potential return on investment for specific digital assets.
 
 <h1></h1>
   
