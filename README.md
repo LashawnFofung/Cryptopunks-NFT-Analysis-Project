@@ -50,9 +50,9 @@ This project addresses a series of analytical questions, including:
 
 <h2>Dataset</h2>
 
-<i>Rows:</i> ``
-<i>Columns:</i> ``
-<i>File size:</i> ``
+- <i>Rows:</i> `19,920`
+- <i>Columns:</i> ``
+- <i>File size:</i> ``
 
 The dataset used for this analysis comprises real-world CryptoPunks sales data from January 1st, 2018, to December 31st, 2021. The table includes the following columns:
 
