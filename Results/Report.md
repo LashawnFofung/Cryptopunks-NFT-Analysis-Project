@@ -30,6 +30,7 @@
 <br>
 
 <b>SQL</b>
+
 ``` /*Total number of sales within the specified period.*/
 SELECT COUNT(*) AS total_sales
 FROM cryptopunkdata;
@@ -49,6 +50,7 @@ This is a fundamental first step in data exploration, providing a quick overview
 <h3>Identification of the top 5 most expensive transactions by USD price.</h3>
 
 <br>
+
  This query retrieves the `name`, `eth_price`, `usd_price`,and `day` for the five highest-priced NFT transactions based on their USD value.
  
 <br>
