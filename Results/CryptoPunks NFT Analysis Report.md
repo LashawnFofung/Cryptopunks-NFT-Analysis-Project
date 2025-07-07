@@ -336,7 +336,6 @@ FROM
 GROUP BY 
 	cryptopunkdata.name
 UNION ALL
-
 SELECT 	
 	name AS name,
 	FORMAT(MIN(cryptopunkdata.usd_price),2) AS price,
