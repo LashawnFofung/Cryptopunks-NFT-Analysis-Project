@@ -237,7 +237,7 @@ This helps identify temporal patterns in NFT trading activity. Are certain days 
 
 <h1></h1>
 
-This query
+This query constructs a human-readable summary sentence for each NFT sale, detailing the NFT name, sale price in USD, buyer, seller, and date.
  
 <br>
 
@@ -245,15 +245,30 @@ This query
 
 ```
 
+/*Construction of a descriptive summary for each transaction.*/
+SELECT
+	CONCAT(
+		name, ' was sold for $', FORMAT(ROUND(usd_price), 2),
+		' to ', buyer_address,
+		' from ', seller_address,
+		' on ', day
+	)	AS summary
+FROM 
+	cryptopunkdata;
 ```
 
 <br>
 
-<img src="" widht="450" height="4" alt="">
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Descriptive%20Summary%20for%20Each%20Transaction.png)
+
 
 <br>
 
 <b>INSIGHT</b> 
+
+While not directly quantitative, this query aids in qualitative data exploration by making individual transactions more immediately understandable. It helps in quickly reviewing specific sales events in a narrative format, which can be useful for spot-checking data integrity or gaining a quick sense of transaction flow.
 
 <h1></h1>
   
