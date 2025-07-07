@@ -320,7 +320,7 @@ Views are crucial for focusing exploration on specific subsets of data without m
 
 This query combines two result sets: one showing the highest USD price for each unique NFT (labeled 'highest'), and another showing the lowest USD price for each unique NFT (labeled 'lowest'), then orders them by NFT name and status.
 
-<b>
+<br>
 
 <b>QUERY</b>
 
