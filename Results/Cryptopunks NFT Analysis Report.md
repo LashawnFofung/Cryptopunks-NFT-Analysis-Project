@@ -21,7 +21,7 @@
 
 <h2>QUESTIONS</h2>
   
-<h3>Total number of sales within dataset (January 2018 to December 2021).</h3>
+<h3>Total number of sales within dataset (January 2018 to December 2021)</h3>
 
 <h1></h1>
 
@@ -88,14 +88,25 @@ Identifying top transactions immediately highlights outliers or significant even
 
 <h1></h1>
 
-This query
+This query calculates a 50-transaction simple moving average of the USD price for each NFT transaction, ordered chronologically by date and timestamp. Both the individual usd_price and the calculated moving_average_usd_price are rounded to the nearest whole dollar for cleaner presentation and easier interpretation.
  
 <br>
 
 <b>QUERY</b> 
 
 ```
-
+/*Calculation of a moving average of USD prices that averages the last 50 transactions.*/
+SELECT
+    name,
+    eth_price,
+ 	ROUND(usd_price,0) AS usd_price_no_decimals, -- Revoved decimals from usd_price 
+ 	ROUND(AVG(usd_price) OVER
+ 		(ORDER BY day ASC, `utc_timestamp` ASC ROWS BETWEEN 49 PRECEDING
+ 		AND CURRENT ROW),0) AS moving_average_usd_price -- Removed decimals from moving average usd-price
+ FROM 
+ 	cryptopunkdata
+ ORDER BY 
+ 	day ASC, `utc_timestamp` ASC;
 ```
 
 <br>
@@ -105,6 +116,8 @@ This query
 <br>
 
 <b>INSIGHT</b> 
+
+Moving averages are crucial for smoothing out short-term market noise and revealing underlying price trends. By averaging the last 50 transactions, this query helps visualize whether NFT prices, on average, were increasing, decreasing, or remaining stable over time, providing a clearer picture of market sentiment and momentum. Rounding the prices to whole dollars simplifies the visual representation of these trends, making it easier to grasp the general direction of the market without being distracted by minor decimal fluctuations. While rounding can introduce small inaccuracies at an individual transaction level, for aggregated trend analysis like a moving average over many transactions, its impact is generally minimal and beneficial for clarity.
 
 <h1></h1>
   
