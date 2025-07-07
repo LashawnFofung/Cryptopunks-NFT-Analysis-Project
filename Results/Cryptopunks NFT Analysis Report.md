@@ -88,7 +88,7 @@ Identifying top transactions immediately highlights outliers or significant even
 
 <h1></h1>
 
-This query calculates a 50-transaction simple moving average of the USD price for each NFT transaction, ordered chronologically by date and timestamp. Both the individual usd_price and the calculated moving_average_usd_price are rounded to the nearest whole dollar for cleaner presentation and easier interpretation.
+This query calculates a 50-transaction simple moving average of the USD price for each NFT transaction, ordered chronologically by date and timestamp. Both the individual `usd_price` and the `calculated moving_average_usd_price` are rounded to the nearest whole dollar for cleaner presentation and easier interpretation.
  
 <br>
 
