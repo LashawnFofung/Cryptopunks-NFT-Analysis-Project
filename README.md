@@ -64,7 +64,7 @@ The dataset used for this analysis comprises real-world CryptoPunks sales data f
 | `seller_address` | The blockchain address of the NFT seller.       |
 | `day`           | The date of the NFT sale.                       |
 | `utc_timestamp`           | The time of the NFT sale.                       |
-| `NFT_ID`         | The unique identifier for the CryptoPunk NFT.   |
+| `token_ID`         | The unique identifier for the CryptoPunk NFT.   |
 | `transaction_hash` | The unique hash of the blockchain transaction.  |
 | `name`       | The name or specific identifier of the NFT (e.g., "CryptoPunk #1234"). |
 
