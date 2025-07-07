@@ -1,21 +1,33 @@
-# RESULTS: Cryptopunk NFT Analysis Project
+# RESULTS: CryptoPunk NFT Analysis Project
 
 
 ## QUESTIONS TABLE OF CONTENTS
 <b>SKILLS:</b> `Data Analysis`, `Data Exploration`, `SQL`, `Aggregation`, `Summary Function`:
 
 - [1. Total number of sales within the dataset (January 2018 to December 2021)](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#total-number-of-sales-within-the-specified-period)
+  
 - [2. Identification of the top 5 most expensive transactions by USD price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#identification-of-the-top-5-most-expensive-transactions-by-usd-price)
+
 - [3. Calculation of a moving average of USD prices to observe price trends.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#calculation-of-a-moving-average-of-usd-prices-to-observe-price-trends)
+
 - [4. Determination of average sale prices for each NFT name.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#determination-of-average-sale-prices-for-each-nft-name)
+
 - [5. Analysis of sales volume and average ETH price by day of the week.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#analysis-of-sales-volume-and-average-eth-price-by-day-of-the-week)
+
 - [6. Construction of a descriptive summary for each transaction.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#construction-of-a-descriptive-summary-for-each-transaction)
+
 - [7. Creation of a dedicated view for purchases made by a specific wallet address.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#creation-of-a-dedicated-view-for-purchases-made-by-a-specific-wallet-address)
+
 - [8. Visualization preparation for ETH price ranges (histogram).](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#visualization-preparation-for-eth-price-ranges-histogram)
+
 - [9. Comparative analysis of highest and lowest sale prices for each NFT.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#comparative-analysis-of-highest-and-lowest-sale-prices-for-each-nft)
+
 - [10. Identification of the most sold NFT each month/year and its associated price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#identification-of-the-most-sold-nft-each-monthyear-and-its-associated-price)
+
 - [11. Calculation of total monthly sales volume.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#calculation-of-total-monthly-sales-volume)
+
 - [12. Counting transactions for a specific wallet.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#counting-transactions-for-a-specific-wallet)
+
 - [13. Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#development-of-an-estimated-average-value-calculator-to-account-for-outlier-sales-and-provide-a-more-representative-daily-average-price)
 
 <h1></h1>
@@ -126,25 +138,36 @@ Moving averages are crucial for smoothing out short-term market noise and reveal
 
 <h1></h1>
 
-This query
+This query computes the average USD sales price for each unique CryptoPunk NFT, listing them from the most expensive average to the least.
  
 <br>
 
 <b>QUERY</b> 
 
 ```
-
+/*Determination of average sale prices for each NFT name. Sort descending. Name the average column as average_price.*/
+SELECT 
+	name,
+	ROUND(AVG(usd_price),0) AS average_price
+FROM 
+	cryptopunkdata 
+GROUP BY 
+	name 
+ORDER BY 
+	average_price DESC;
 ```
 
 <br>
 
-<img src="" widht="450" height="4" alt="">
+<img src="https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/AVG%20Sales%20Prices%20by%20name.png" widht="450" height="4" alt="AVG Sales Price by name">
 
 <br>
 
 <b>INSIGHT</b> 
 
 <h1></h1>
+
+This analysis helps in understanding the inherent value or market perception of different individual NFTs within the CryptoPunks collection. It can highlight which specific Punks (e.g., those with rare traits) consistently sell for more, pointing to key value attributes within the collection.
   
 <h3>5. Analysis of sales volume and average ETH price by day of the week</h3>
 
