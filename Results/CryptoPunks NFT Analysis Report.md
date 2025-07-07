@@ -18,17 +18,15 @@
 
 - [7. Creation of a dedicated view for purchases made by a specific wallet address.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#creation-of-a-dedicated-view-for-purchases-made-by-a-specific-wallet-address)
 
-- [8. Visualization preparation for ETH price ranges (histogram).](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#visualization-preparation-for-eth-price-ranges-histogram)
+- [8. Comparative analysis of highest and lowest sale prices for each NFT.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#comparative-analysis-of-highest-and-lowest-sale-prices-for-each-nft)
 
-- [9. Comparative analysis of highest and lowest sale prices for each NFT.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#comparative-analysis-of-highest-and-lowest-sale-prices-for-each-nft)
+- [9. Identification of the most sold NFT each month/year and its associated price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#identification-of-the-most-sold-nft-each-monthyear-and-its-associated-price)
 
-- [10. Identification of the most sold NFT each month/year and its associated price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#identification-of-the-most-sold-nft-each-monthyear-and-its-associated-price)
+- [10. Calculation of total monthly sales volume.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#calculation-of-total-monthly-sales-volume)
 
-- [11. Calculation of total monthly sales volume.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#calculation-of-total-monthly-sales-volume)
+- [11. Counting transactions for a specific wallet.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#counting-transactions-for-a-specific-wallet)
 
-- [12. Counting transactions for a specific wallet.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#counting-transactions-for-a-specific-wallet)
-
-- [13. Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#development-of-an-estimated-average-value-calculator-to-account-for-outlier-sales-and-provide-a-more-representative-daily-average-price)
+- [12. Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#development-of-an-estimated-average-value-calculator-to-account-for-outlier-sales-and-provide-a-more-representative-daily-average-price)
 
 <h1></h1>
 
@@ -316,31 +314,7 @@ Views are crucial for focusing exploration on specific subsets of data without m
 
 <h1></h1>
   
-<h3>8. Visualization preparation for ETH price ranges (histogram)</h3>
-
-<h1></h1>
-
-This query
- 
-<br>
-
-<b>QUERY</b> 
-
-```
-
-```
-
-<br>
-
-<img src="" widht="450" height="4" alt="">
-
-<br>
-
-<b>INSIGHT</b> 
-
-<h1></h1>
-  
-<h3>9. Comparative analysis of highest and lowest sale prices for each NFT</h3>
+<h3>8. Comparative analysis of highest and lowest sale prices for each NFT</h3>
 
 <h1></h1>
 
@@ -364,7 +338,7 @@ This query
 
 <h1></h1>
   
-<h3>10. Identification of the most sold NFT each month/year and its associated price</h3>
+<h3>9. Identification of the most sold NFT each month/year and its associated price</h3>
 
 <h1></h1>
 
@@ -388,7 +362,7 @@ This query
 
 <h1></h1>
   
-<h3>11. Calculation of total monthly sales volume</h3>
+<h3>10. Calculation of total monthly sales volume</h3>
 
 <h1></h1>
 
@@ -412,7 +386,7 @@ This query
 
 <h1></h1>
   
-<h3>12. Counting transactions for a specific wallet</h3>
+<h3>11. Counting transactions for a specific wallet</h3>
 
 <h1></h1>
 
@@ -436,7 +410,7 @@ This query
 
 <h1></h1>
   
-<h3>13. Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price</h3>
+<h3>12. Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price</h3>
 
 <h1></h1>
 
