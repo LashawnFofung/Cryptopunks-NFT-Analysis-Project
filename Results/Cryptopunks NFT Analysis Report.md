@@ -20,10 +20,10 @@
 
 
 <h2>QUESTIONS</h2>
-
-<h1></h1>
   
 <h3>Total number of sales within dataset (January 2018 to December 2021).</h3>
+
+<h1></h1>
 
  This query counts all rows in the `cryptopunkdata` table, providing the total number of NFT sales recordered from January 1, 2018 to December 31, 2021 in the dataset.
 
@@ -50,7 +50,7 @@ This is a fundamental first step in data exploration, providing a quick overview
   
 <h3>Identification of the top 5 most expensive transactions by USD price</h3>
 
-<br>
+<h1></h1>
 
  This query retrieves the `name`, `eth_price`, `usd_price`,and `day` for the five highest-priced NFT transactions based on their USD value.
  
@@ -86,7 +86,9 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Calculation of a moving average of USD prices to observe price trends</h3>
 
- This query
+<h1></h1>
+
+This query
  
 <br>
 
@@ -108,7 +110,9 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Determination of average sale prices for each NFT name</h3>
 
- This query
+<h1></h1>
+
+This query
  
 <br>
 
@@ -130,7 +134,9 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Analysis of sales volume and average ETH price by day of the week</h3>
 
- This query
+<h1></h1>
+
+This query
  
 <br>
 
@@ -152,7 +158,9 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Construction of a descriptive summary for each transaction</h3>
 
- This query
+<h1></h1>
+
+This query
  
 <br>
 
@@ -174,7 +182,9 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Creation of a dedicated view for purchases made by a specific wallet address</h3>
 
- This query
+<h1></h1>
+
+This query
  
 <br>
 
@@ -196,7 +206,9 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Visualization preparation for ETH price ranges (histogram)</h3>
 
- This query
+<h1></h1>
+
+This query
  
 <br>
 
@@ -218,7 +230,11 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Comparative analysis of highest and lowest sale prices for each NFT</h3>
 
-<br>
+<h1></h1>
+
+This query
+
+<b>
 
 <b>QUERY</b> 
 
@@ -238,7 +254,9 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Identification of the most sold NFT each month/year and its associated price</h3>
 
- This query
+<h1></h1>
+
+This query
  
 <br>
 
@@ -260,7 +278,9 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Calculation of total monthly sales volume</h3>
 
- This query
+<h1></h1>
+
+This query
  
 <br>
 
@@ -282,7 +302,9 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Counting transactions for a specific wallet</h3>
 
- This query
+<h1></h1>
+
+This query
  
 <br>
 
@@ -304,7 +326,9 @@ Identifying top transactions immediately highlights outliers or significant even
   
 <h3>Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price</h3>
 
- This query
+<h1></h1>
+
+This query
  
 <br>
 
