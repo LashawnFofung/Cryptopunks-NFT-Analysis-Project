@@ -12,7 +12,7 @@
 
 - [4. Determination of average sale prices for each NFT name.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#determination-of-average-sale-prices-for-each-nft-name)
 
-- [5. Analysis of sales volume and average ETH price by day of the week.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#analysis-of-sales-volume-and-average-eth-price-by-day-of-the-week)
+- [5. Analysis of sales volume, average ETH price, and USD price by day of the week.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#analysis-of-sales-volume-and-average-eth-price-by-day-of-the-week)
 
 - [6. Construction of a descriptive summary for each transaction.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#construction-of-a-descriptive-summary-for-each-transaction)
 
@@ -182,7 +182,7 @@ This analysis helps in understanding the inherent value or market perception of 
 
 <h1></h1>
   
-<h3>5. Analysis of sales volume and average ETH price by day of the week</h3>
+<h3>5. Analysis of sales volume, average ETH price, and USD price by day of the week</h3>
 
 <h1></h1>
 
