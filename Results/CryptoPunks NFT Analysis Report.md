@@ -3,9 +3,9 @@
 
 ## TABLE OF CONTENTS (QUESTIONS): 
 
-- [1. Total number of sales within the dataset (January 2018 to December 2021)](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#2-identification-of-the-top-5-most-expensive-transactions-by-usd-price)
+- [1. Total number of sales within the dataset (January 2018 to December 2021)]()
   
-- [2. Identification of the top 5 most expensive transactions by USD price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#identification-of-the-top-5-most-expensive-transactions-by-usd-price)
+- [2. Identification of the top 5 most expensive transactions by USD price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#2-identification-of-the-top-5-most-expensive-transactions-by-usd-price)
 
 - [3. Calculation of a moving average of USD prices to observe price trends.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#calculation-of-a-moving-average-of-usd-prices-to-observe-price-trends)
 
