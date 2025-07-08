@@ -55,6 +55,8 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
  
 This is a fundamental first step in data exploration, providing a quick overview of the dataset's volume. A high count suggests a bustling market, while a low count might indicate niche activity. It helps in understanding the scale of the data.
 
+This foundational metric reveals 19,920 total NFT sales, highlighting the active and extensive scale of the CryptoPunks market within the dataset and providing a crucial baseline for further analysis.
+
 <h1></h1>
   
 
