@@ -221,8 +221,7 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 <b>INSIGHT</b> 
 
 This analysis segmenting sales activity by the day of the week offers valuable insights into the CryptoPunks market's cyclical behavior. The results indicate a discernible pattern in trading volume: 
-
-	<b>Sundays consistently exhibit the lowest number of sales (2,490 transactions), with activity progressively increasing throughout the week to peak on Thursdays (3,156 transactions).</b> 
+<b>Sundays consistently exhibit the lowest number of sales (2,490 transactions), with activity progressively increasing throughout the week to peak on Thursdays (3,156 transactions).</b> 
  
 Despite this notable variation in daily transaction volume, <b>the average ETH and USD prices for CryptoPunks remain remarkably stable across all days</b>, fluctuating within a tight range (e.g., average USD price holds consistently around $173,000 to $183,000). This suggests that while market participants may prefer to engage more actively mid-week, these daily volume shifts do not significantly impact the underlying average valuation of CryptoPunks, pointing to a relatively stable pricing baseline regardless of daily transaction intensity.
 
