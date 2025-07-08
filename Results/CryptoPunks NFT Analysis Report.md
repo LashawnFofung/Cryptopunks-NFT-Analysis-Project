@@ -533,7 +533,7 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 
 <b>INSIGHT</b> 
 
-This analysis provides powerful insights into NFT market dynamics by first ensuring data quality in timestamps and then systematically identifying trending assets. By highlighting the single most sold NFT each month, it effectively cuts through market noise to reveal which specific CryptoPunks gained significant popularity or experienced heightened trading activity during particular periods. This can help correlate market trends with broader events, community interest, or media attention, offering a clear view of shifting demand for individual assets within the collection over time.
+This analysis tracks the "most sold" CryptoPunk for each month, revealing unique insights into market liquidity and evolving preferences. A crucial observation from the results is that for nearly all months in the dataset, the `sales_count_in_month` for the "most sold" NFT is consistently 1. This indicates that it is <b>highly uncommon for a single CryptoPunk token to be traded multiple times within the same calendar month</b>; instead, the "most sold" effectively represents an NFT that saw at least one transaction in that specific month (with alphabetical tie-breaking).
 
 <h1></h1>
   
