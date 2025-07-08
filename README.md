@@ -42,8 +42,6 @@ This project addresses a series of analytical questions, including:
 - Comparative analysis of highest and lowest sale prices for each NFT.
 - Identification of the most sold NFT each month/year and its associated price.
 - Calculation of total monthly sales volume.
-- Counting transactions for a specific wallet.
-- Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price.
 
 <h1></h1>
 
