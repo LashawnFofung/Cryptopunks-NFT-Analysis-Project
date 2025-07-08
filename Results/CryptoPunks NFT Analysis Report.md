@@ -1,4 +1,4 @@
-# RESULTS: CryptoPunk NFT Analysis Project
+# Results & Queries: CryptoPunk NFT Analysis Project
 
 
 ## QUESTIONS TABLE OF CONTENTS
