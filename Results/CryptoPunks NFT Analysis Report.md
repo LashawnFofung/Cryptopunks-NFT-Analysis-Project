@@ -9,11 +9,11 @@
 
 - [3. Calculation of a moving average of USD prices to observe price trends.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#3-calculation-of-a-moving-average-of-usd-prices-to-observe-price-trends)
 
-- [4. Determination of average sale prices for each NFT name.]()
+- [4. Determination of average sale prices for each NFT name.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#4-determination-of-average-sale-prices-for-each-nft-name)
 
-- [5. Analysis of sales volume, average ETH price, and USD price by day of the week.]()
+- [5. Analysis of sales volume, average ETH price, and USD price by day of the week.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#5-analysis-of-sales-volume-average-eth-price-and-usd-price-by-day-of-the-week)
 
-- [6. Construction of a descriptive summary for each transaction.]()
+- [6. Construction of a descriptive summary for each transaction.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#6-construction-of-a-descriptive-summary-for-each-transaction)
 
 - [7. Creation of a dedicated view for purchases made by a specific wallet address.]()
 
