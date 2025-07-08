@@ -1,7 +1,7 @@
 # Results & Queries: CryptoPunk NFT Analysis Project
 
 
-## QUESTIONS TABLE OF CONTENTS
+## QUESTIONS 
 <b>SKILLS:</b> `Data Analysis`, `Data Exploration`, `SQL`, `Aggregation`, `Summary Function`:
 
 - [1. Total number of sales within the dataset (January 2018 to December 2021)](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/Report.md#total-number-of-sales-within-the-specified-period)
