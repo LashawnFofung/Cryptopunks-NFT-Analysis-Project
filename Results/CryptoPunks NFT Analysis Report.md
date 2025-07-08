@@ -15,13 +15,13 @@
 
 - [6. Construction of a descriptive summary for each transaction.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#6-construction-of-a-descriptive-summary-for-each-transaction)
 
-- [7. Creation of a dedicated view for purchases made by a specific wallet address.]()
+- [7. Creation of a dedicated view for purchases made by a specific wallet address.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#7-creation-of-a-dedicated-view-for-purchases-made-by-a-specific-wallet-address)
 
-- [8. Comparative analysis of highest and lowest sale prices for each NFT.]()
+- [8. Comparative analysis of highest and lowest sale prices for each NFT.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#8-comparative-analysis-of-highest-and-lowest-sale-prices-for-each-nft)
 
-- [9. Identification of the most sold NFT each month/year and its associated price.]()
+- [9. Identification of the most sold NFT each month/year and its associated price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#9-identification-of-the-most-sold-nft-each-monthyear-and-its-associated-price)
 
-- [10. Calculation of total monthly sales volume.]()
+- [10. Calculation of total monthly sales volume.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#10-calculation-of-total-monthly-sales-volume)
 
 
 <h1></h1>
