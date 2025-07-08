@@ -24,9 +24,6 @@
 
 - [10. Calculation of total monthly sales volume.]()
 
-- [11. Counting transactions for a specific wallet.]()
-
-- [12. Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price.]()
 
 <h1></h1>
 
@@ -545,7 +542,7 @@ This analysis provides powerful insights into NFT market dynamics by first ensur
 
 <h1></h1>
 
-This query
+This query calculates the total sales volume in USD for each month and year, rounding the sum to the nearest hundred dollars.
  
 <br>
 
@@ -568,73 +565,13 @@ ORDER BY
 
 <b>RESULTS</b>
 
-View query results: [<b>HERE</b>]()
-
-
-<br>
-
-
-<b>INSIGHT</b> 
-
-<h1></h1>
-  
-<h3>11. Counting transactions for a specific wallet</h3>
-
-<h1></h1>
-
-This query
- 
-<br>
-
-<b>QUERY</b> 
-
-```
-
-```
-
-<br>
-
-<b>RESULTS</b>
-
-View query results: [<b>HERE</b>]()
+View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Calculation%20of%20Total%20Volume.png)
 
 <br>
 
 <b>INSIGHT</b> 
 
-<h1></h1>
-  
-<h3>12. Development of an "estimated average value calculator" to account for outlier sales and provide a more representative daily average price</h3>
-
-<h1></h1>
-
-This query
- 
-<br>
-
-<b>QUERY</b> 
-
-```
-
-```
-
-<br>
-
-<b>RESULTS</b>
-
-View query results: [<b>HERE</b>]()
-
-<br>
-
-<b>INSIGHT</b> 
-
-
+This provides a macroscopic view of market activity, showing how much money was transacted in the CryptoPunks market on a monthly basis. Trends in total volume can indicate periods of market boom or bust, overall investor interest, and liquidity within the collection over time.
 
 <h1></h1>
   
-<h3></h3>
-
-<br>
-
-<img src="" widht="450" height="4" alt="">
-
