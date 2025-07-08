@@ -7,7 +7,7 @@
   
 - [2. Identification of the top 5 most expensive transactions by USD price.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#2-identification-of-the-top-5-most-expensive-transactions-by-usd-price)
 
-- [3. Calculation of a moving average of USD prices to observe price trends.]()
+- [3. Calculation of a moving average of USD prices to observe price trends.](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Results/CryptoPunks%20NFT%20Analysis%20Report.md#3-calculation-of-a-moving-average-of-usd-prices-to-observe-price-trends)
 
 - [4. Determination of average sale prices for each NFT name.]()
 
