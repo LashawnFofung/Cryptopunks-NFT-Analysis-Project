@@ -53,7 +53,7 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 
 <b>INSIGHT</b> 
 
-This foundational metric reveals <b>19,920 total NFT sales</b>, highlighting the active and extensive scale of the CryptoPunks market within the dataset and providing a crucial baseline for further analysis.
+This foundational metric reveals <b>$19,920 total NFT sales</b>, highlighting the active and extensive scale of the CryptoPunks market within the dataset and providing a crucial baseline for further analysis.
 
 <h1></h1>
   
@@ -220,7 +220,11 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 
 <b>INSIGHT</b> 
 
-This helps identify temporal patterns in NFT trading activity. Are certain days of the week more active for sales, or do prices fluctuate based on the day? This could uncover insights into typical buyer behavior or market liquidity patterns throughout the week.
+This analysis segmenting sales activity by the day of the week offers valuable insights into the CryptoPunks market's cyclical behavior. The results indicate a discernible pattern in trading volume: 
+
+	<b>Sundays consistently exhibit the lowest number of sales (2,490 transactions), with activity progressively increasing throughout the week to peak on Thursdays (3,156 transactions).</b> 
+ 
+Despite this notable variation in daily transaction volume, <b>the average ETH and USD prices for CryptoPunks remain remarkably stable across all days</b>, fluctuating within a tight range (e.g., average USD price holds consistently around $173,000 to $183,000). This suggests that while market participants may prefer to engage more actively mid-week, these daily volume shifts do not significantly impact the underlying average valuation of CryptoPunks, pointing to a relatively stable pricing baseline regardless of daily transaction intensity.
 
 <h1></h1>
   
