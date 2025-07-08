@@ -367,15 +367,165 @@ This comparison highlights the price volatility and range for individual NFTs. A
 
 <h1></h1>
 
-This query
+This multi-step query first cleans the day column to ensure consistent date formatting, handling potential variations or errors in the original data. It then proceeds to aggregate the sales data, calculating the total sales count and average USD price for each NFT (name) within each month-year (YYYY-MM). Subsequently, it uses a ranking function (ROW_NUMBER()) to identify the single most frequently sold NFT for every given month and year, selecting the NFT with the highest sales count (tie-breaking alphabetically by NFT name). The final output includes the month-year, the NFT's name, its total sales count for that month, and its average sale price in USD (formatted with thousands separators and two decimal places).
  
 <br>
 
 <b>QUERY</b> 
 
 ```
+/*Without comments
+*Identification of the most sold NFT each month / year combination?*/
+
+/*Clean the 'day' column to ensure consistent data format*/
+WITH Cleaned_Data AS (
+	SELECT
+	    day,
+	    name,
+	    usd_price,
+	    CASE  
+	        WHEN STR_TO_DATE(day, '%m/%d/%y') IS NOT NULL THEN STR_TO_DATE(day, '%m/%d/%y') 
+	        WHEN STR_TO_DATE(day, '%Y-%m-%d') IS NOT NULL THEN STR_TO_DATE(day, '%Y-%m-%d') 
+	        WHEN STR_TO_DATE(day, '%m-%d-%y') IS NOT NULL THEN STR_TO_DATE(day, '%m-%d-%y') 
+	        WHEN STR_TO_DATE(SUBSTRING_INDEX(day, ' ', 1), '%m/%d/%y') IS NOT NULL
+	             THEN STR_TO_DATE(SUBSTRING_INDEX(day, ' ', 1), '%m/%d/%y')
+	        ELSE NULL  
+	    END AS cleaned_day
+	FROM
+	   cryptopunkdata
+),
+    
+-- First step in multiple CTE is MonthlySales CTE - aggregrates the sales data.
+Monthly_Sales AS (  
+	SELECT
+		DATE_FORMAT(cleaned_day, '%m/%y') AS sale_month_year, 
+		name, 
+		COUNT(*) AS nft_monthly_sales_count,  
+		AVG(usd_price) AS average_monthly_usd_price  
+	FROM
+		Cleaned_Data  
+	WHERE 
+		cleaned_day IS NOT NULL  
+	GROUP BY
+		sale_month_year, name
+
+),
+
+-- Second step in multiple CTE is RankedMonthlySales CTE - ranks te NFTs within each sale_month_year based on their nft_monthly_sales_count.
+Ranked_Monthly_Sales AS (
+	SELECT 
+		sale_month_year,
+		name, 
+		nft_monthly_sales_count,
+		average_monthly_usd_price,
+		ROW_NUMBER() OVER 
+			(PARTITION BY sale_month_year ORDER BY nft_monthly_sales_count DESC, 
+				name ASC)  
+				AS rn  
+	FROM
+		Monthly_Sales
+)
+
+-- Third step/Final SELECT statement in multiple CTE - retrieves only the rows where ranked number (rn) is 1, 
+-- effectively selecting the single most sold NFT for each month-year.
+SELECT
+	sale_month_year,
+	name AS NFT_name,
+	nft_monthly_sales_count AS sales_count_in_month,
+	CONCAT('$', FORMAT(average_monthly_usd_price, 2)) AS price_in_usd 												
+FROM 
+	Ranked_Monthly_Sales
+WHERE
+	rn = 1 
+ORDER BY 
+	sale_month_year ASC; 
+```
+
+<br>
+
+<b>More Detailed QUERY with Comments</b>
 
 ```
+/*Identification of the most sold NFT each month / year combination?
+ * What was the name and the price in USD?
+ * Order in chronological format
+ * Multi-step query use of Commmon Table Expression (CTEs) to identify the most sold NFT for each month and year, 
+ * 	along with its average price. 
+ * First step is MonthlySales CTE - aggregrates the sales data.
+ * Second step is RankedMonthlySales CTE - ranks te NFTs within each sale_month_year based on their nft_monthly_sales_count.
+ * Third step/Final SELECT statement - retrieves only the rows where ranked number (rn) is 1, effectively selecting the single most sold NFT for each month-year.
+ * %y is year
+ * %m is (month)
+ * %d is (date)*/
+
+/*Clean the 'day' column to ensure consistent data format*/
+WITH Cleaned_Data AS (
+	SELECT
+	    day,
+	    name,
+	    usd_price,
+	    -- Attempt to convert 'day' using multiple formats, prioritizing your known format
+	    CASE  -- Try MM/DD/YY first (your observed format)
+	        WHEN STR_TO_DATE(day, '%m/%d/%y') IS NOT NULL THEN STR_TO_DATE(day, '%m/%d/%y') -- Add more WHEN clauses here if you identified other incorrect date formats in your data
+	        																				-- For example, if some dates are 'YYYY-MM-DD':
+	        WHEN STR_TO_DATE(day, '%Y-%m-%d') IS NOT NULL THEN STR_TO_DATE(day, '%Y-%m-%d') -- If some dates are 'MM-DD-YY':
+	        WHEN STR_TO_DATE(day, '%m-%d-%y') IS NOT NULL THEN STR_TO_DATE(day, '%m-%d-%y') -- Handle cases where 'day' might be a full datetime string like 'MM/DD/YY HH:MM:SS'
+	        WHEN STR_TO_DATE(SUBSTRING_INDEX(day, ' ', 1), '%m/%d/%y') IS NOT NULL
+	             THEN STR_TO_DATE(SUBSTRING_INDEX(day, ' ', 1), '%m/%d/%y')
+	        ELSE NULL  -- For any value that still doesn't match, return NULL
+	    END AS cleaned_day
+	FROM
+	   cryptopunkdata
+),
+    
+-- First step in multiple CTE is MonthlySales CTE - aggregrates the sales data.
+Monthly_Sales AS (  
+	SELECT
+		DATE_FORMAT(cleaned_day, '%m/%y') AS sale_month_year, -- Formats the cleaned date into 'YY-MM' for grouping
+		name, -- Uses 'name' column for NFT name
+		COUNT(*) AS nft_monthly_sales_count,  -- Counts sales for each NFT per month/year
+		AVG(usd_price) AS average_monthly_usd_price  -- Calculates average USD price for each NFT per month/year
+	FROM
+		Cleaned_Data  -- Selecting from the Cleaned_Data CTE
+	WHERE 
+		cleaned_day IS NOT NULL  -- Exclude rows where data cleaning failed 
+	GROUP BY
+		sale_month_year, name
+
+),
+
+-- Second step in multiple CTE is RankedMonthlySales CTE - ranks te NFTs within each sale_month_year based on their nft_monthly_sales_count.
+Ranked_Monthly_Sales AS (
+	SELECT 
+		sale_month_year,
+		name, 
+		nft_monthly_sales_count,
+		average_monthly_usd_price,
+		ROW_NUMBER() OVER 
+			(PARTITION BY sale_month_year ORDER BY nft_monthly_sales_count DESC, -- divides the data into separate groups for each month-year
+																				-- ORDER BY ranks NFTs from highest sales count to lowest within each month-year group
+				name ASC)  -- arranges NFTs by name alphabetically if two NFTs have the same nft_monthly_sales_count with same month-year
+				AS rn  -- columns assigns a unique rank number to each NFT within montly group. The NFT with the highest sales count gets rn = 1
+	FROM
+		Monthly_Sales
+)
+
+-- Third step/Final SELECT statement in multiple CTE - retrieves only the rows where ranked number (rn) is 1, 
+-- effectively selecting the single most sold NFT for each month-year.
+SELECT
+	sale_month_year,
+	name AS NFT_name, -- renamed for clarity in output
+	nft_monthly_sales_count AS sales_count_in_month,
+	CONCAT('$', FORMAT(average_monthly_usd_price, 2)) AS price_in_usd -- Added '$' in front of value for usd_price. 
+																	 -- Formated for easier readability. Removing decimals if more than 2 places.												
+FROM 
+	Ranked_Monthly_Sales
+WHERE
+	rn = 1 -- Filters to keep only the top-ranked NFT for each month-year
+ORDER BY 
+	sale_month_year ASC;  -- Ensures the final results are in chronological order by month-year	
+```
+
 
 <br>
 
