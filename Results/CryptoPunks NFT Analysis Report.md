@@ -262,7 +262,7 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 
 <b>INSIGHT</b> 
 
-While not directly quantitative, this query aids in qualitative data exploration by making individual transactions more immediately understandable. It helps in quickly reviewing specific sales events in a narrative format, which can be useful for spot-checking data integrity or gaining a quick sense of transaction flow.
+This descriptive summary provides a crucial statistical overview of individual transactions, powerfully illustrating the inherent volatility and extremely skewed value distribution within the CryptoPunks market. For `usd_price`, the data reveals a <b>massive range from a mere $181 to an astonishing $23.7 million</b>, with an average (mean) of approximately <b>$177,358</b>. However, the <b>median price is significantly lower at $55,776</b>, and the extremely high standard deviation (~$405,108) starkly highlights that the market is heavily skewed by a small number of <b>ultra-high-value outlier transactions</b>. This confirms that while the majority of CryptoPunks trade at more modest prices, a select few command astronomical sums, fundamentally elevating and distorting the overall average. Similar patterns of extreme range and high standard deviation are observed for eth_price, underscoring the market's high volatility, while token_id distribution reflects broad activity across the collection.
 
 <h1></h1>
   
