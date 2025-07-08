@@ -570,7 +570,7 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 
 <b>INSIGHT</b> 
 
-This provides a macroscopic view of market activity, showing how much money was transacted in the CryptoPunks market on a monthly basis. Trends in total volume can indicate periods of market boom or bust, overall investor interest, and liquidity within the collection over time.
+This calculation of total trading volume provides a macro-level view of the CryptoPunks market's immense economic scale. The results reveal an astounding <b>total volume of 1,352,495.17 ETH</b> and over <b>$3.53 billion USD</b> exchanged across all transactions in the dataset. These colossal figures underscore the profound financial activity and deep liquidity that characterize the CryptoPunks ecosystem, reinforcing its status as a significant asset class within the broader NFT and cryptocurrency markets. This cumulative value is a powerful testament to the sustained high demand and perceived worth of this collection over time, reflecting its considerable economic impact.
 
 <h1></h1>
   
