@@ -138,7 +138,7 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 
 <b>INSIGHT</b> 
 
-Moving averages are crucial for smoothing out short-term market noise and revealing underlying price trends. By averaging the last 50 transactions, this query helps visualize whether NFT prices, on average, were increasing, decreasing, or remaining stable over time, providing a clearer picture of market sentiment and momentum. Rounding the prices to whole dollars simplifies the visual representation of these trends, making it easier to grasp the general direction of the market without being distracted by minor decimal fluctuations. While rounding can introduce small inaccuracies at an individual transaction level, for aggregated trend analysis like a moving average over many transactions, its impact is generally minimal and beneficial for clarity.
+This analysis, utilizing a 50-transaction simple moving average, effectively smooths out the inherent volatility of individual NFT sales to highlight underlying price trends in the CryptoPunks market. As observed in the provided results, the moving_average_usd_price for the depicted period (January 2022) generally hovers around the $200,000 USD mark. This consistency in the moving average suggests a period of relative stability in the average valuation of CryptoPunks based on recent transaction activity, offering a clearer signal of immediate market sentiment and potential price trajectory than isolated high or low sales.
 
 <h1></h1>
   
