@@ -367,7 +367,7 @@ This comparison highlights the price volatility and range for individual NFTs. A
 
 <h1></h1>
 
-This multi-step query first cleans the day column to ensure consistent date formatting, handling potential variations or errors in the original data. It then proceeds to aggregate the sales data, calculating the total sales count and average USD price for each NFT (name) within each month-year (YYYY-MM). Subsequently, it uses a ranking function (ROW_NUMBER()) to identify the single most frequently sold NFT for every given month and year, selecting the NFT with the highest sales count (tie-breaking alphabetically by NFT name). The final output includes the month-year, the NFT's name, its total sales count for that month, and its average sale price in USD (formatted with thousands separators and two decimal places).
+This multi-step query first cleans the `day` column to ensure consistent date formatting, handling potential variations or errors in the original data. It then proceeds to aggregate the sales data, calculating the total sales count and average USD price for each NFT (`name`) within each month-year (`YYYY-MM`). Subsequently, it uses a ranking function (`ROW_NUMBER()`) to identify the single most frequently sold NFT for every given month and year, selecting the NFT with the highest sales count (tie-breaking alphabetically by NFT name). The final output includes the month-year, the NFT's name, its total sales count for that month, and its average sale price in USD (formatted with thousands separators and two decimal places).
  
 <br>
 
@@ -529,11 +529,15 @@ ORDER BY
 
 <br>
 
-<img src="" widht="450" height="4" alt="">
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-NFT-Analysis-Project/blob/main/Images/Multiple%20CTE%20Most%20Sold%20NFT%20Each%20Month.png)
 
 <br>
 
 <b>INSIGHT</b> 
+
+This analysis provides powerful insights into NFT market dynamics by first ensuring data quality in timestamps and then systematically identifying trending assets. By highlighting the single most sold NFT each month, it effectively cuts through market noise to reveal which specific CryptoPunks gained significant popularity or experienced heightened trading activity during particular periods. This can help correlate market trends with broader events, community interest, or media attention, offering a clear view of shifting demand for individual assets within the collection over time.
 
 <h1></h1>
   
@@ -553,9 +557,13 @@ This query
 
 <br>
 
-<img src="" widht="450" height="4" alt="">
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>]()
+
 
 <br>
+
 
 <b>INSIGHT</b> 
 
@@ -577,7 +585,9 @@ This query
 
 <br>
 
-<img src="" widht="450" height="4" alt="">
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>]()
 
 <br>
 
@@ -601,7 +611,9 @@ This query
 
 <br>
 
-<img src="" widht="450" height="4" alt="">
+<b>RESULTS</b>
+
+View query results: [<b>HERE</b>]()
 
 <br>
 
