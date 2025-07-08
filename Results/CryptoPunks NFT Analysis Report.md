@@ -552,7 +552,16 @@ This query
 <b>QUERY</b> 
 
 ```
-
+/*Calculation of total montly sales volume*/
+SELECT
+	DATE_FORMAT(day,'%Y-%M') AS month_year,
+	ROUND(SUM(usd_price), -2) AS total_monthly_volume_rounded_hundreds
+FROM 
+	cryptopunkdata
+GROUP BY 
+	month_year 
+ORDER BY 
+	month_year ASC;
 ```
 
 <br>
