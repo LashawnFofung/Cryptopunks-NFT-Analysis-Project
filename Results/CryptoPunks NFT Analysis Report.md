@@ -52,16 +52,11 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 <br>
 
 <b>INSIGHT</b> 
- 
-This is a fundamental first step in data exploration, providing a quick overview of the dataset's volume. A high count suggests a bustling market, while a low count might indicate niche activity. It helps in understanding the scale of the data.
 
-This foundational metric reveals 19,920 total NFT sales, highlighting the active and extensive scale of the CryptoPunks market within the dataset and providing a crucial baseline for further analysis.
+This foundational metric reveals <b>19,920 total NFT sales</b>, highlighting the active and extensive scale of the CryptoPunks market within the dataset and providing a crucial baseline for further analysis.
 
 <h1></h1>
   
-
-
-
 <h3>2. Identification of the top 5 most expensive transactions by USD price</h3>
 
 <h1></h1>
@@ -96,9 +91,7 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 
 <b>INSIGHT</b> 
 
-Identifying top transactions immediately highlights outliers or significant events in the market. It can reveal specific NFTs that command extremely high values, potentiallu indicating rarity, historical significance, or intense speculation, which are crucial for understanding marlet dynamics and value drivers.
-
-The analysis of the top transactions immediately reveals the immense value potential within the CryptoPunks market, showcasing extraordinary outliers. Led by CryptoPunk #5822 at a staggering $23.7 million USD, these top sales underscore the highly speculative and collectable nature of these NFTs. Even beyond the absolute peak, transactions like CryptoPunk #5577 at $7.82 million USD and CryptoPunk #3100 at $7.58 million USD demonstrate a multi-million dollar tier of highly sought-after assets. These extreme valuations indicate deep market demand, perceived rarity, and the significant role of historical context or unique traits in driving prices for specific CryptoPunks. Identifying these transactions is crucial for understanding the market's upper echelons, key value drivers, and the potential for rapid price appreciation.
+The analysis of the top transactions immediately reveals the immense value potential within the CryptoPunks market, showcasing extraordinary outliers. Led by <b>CryptoPunk #5822</b> at a staggering <b>$23.7 million USD</b>, these top sales underscore the highly speculative and collectable nature of these NFTs. Even beyond the absolute peak, transactions like <b>CryptoPunk #5577</b> at <b>$7.82 million USD</b> and <b>CryptoPunk #3100</b> at <b>$7.58 million USD</b> demonstrate a multi-million dollar tier of highly sought-after assets. These extreme valuations indicate deep market demand, perceived rarity, and the significant role of historical context or unique traits in driving prices for specific CryptoPunks. Identifying these transactions is crucial for understanding the market's upper echelons, key value drivers, and the potential for rapid price appreciation.
 
 <h1></h1>
   
@@ -138,7 +131,7 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 
 <b>INSIGHT</b> 
 
-This analysis, utilizing a 50-transaction simple moving average, effectively smooths out the inherent volatility of individual NFT sales to highlight underlying price trends in the CryptoPunks market. As observed in the provided results, the moving_average_usd_price for the depicted period (January 2022) generally hovers around the $200,000 USD mark. This consistency in the moving average suggests a period of relative stability in the average valuation of CryptoPunks based on recent transaction activity, offering a clearer signal of immediate market sentiment and potential price trajectory than isolated high or low sales.
+This analysis, utilizing a 50-transaction simple moving average, effectively smooths out the inherent volatility of individual NFT sales to highlight underlying price trends in the CryptoPunks market. As observed in the provided results, the `moving_average_usd_price` for the depicted period (January 2022) generally hovers around the $200,000 USD mark. This consistency in the moving average suggests a period of relative stability in the average valuation of CryptoPunks based on recent transaction activity, offering a clearer signal of immediate market sentiment and potential price trajectory than isolated high or low sales.
 
 <h1></h1>
   
@@ -176,7 +169,7 @@ View query results: [<b>HERE</b>](https://github.com/LashawnFofung/Cryptopunks-N
 
 <b>INSIGHT</b> 
 
-This analysis helps in understanding the inherent value or market perception of different individual NFTs within the CryptoPunks collection. It can highlight which specific Punks (e.g., those with rare traits) consistently sell for more, pointing to key value attributes within the collection.
+This analysis provides a crucial long-term valuation perspective by calculating the average USD sale price for each individual CryptoPunk (`name`). As revealed by the results, certain CryptoPunks consistently command exceptionally high average prices, with `CryptoPunk #7078` leading at over $2.8 million USD, and several others frequently exceeding the $2 million mark. This substantial difference in average valuation highlights that perceived rarity, unique traits, or historical significance translate into sustained higher market demand and pricing for specific NFTs within the collection, offering vital insights into what attributes drive consistent value over time.
 
 <h1></h1>
   
